@@ -173,7 +173,7 @@ async function submitUserMessage(content: string) {
       } else {
         textStream.update(delta)
       }
-
+      //test rebuild
       return textNode
     },
     tools: {
